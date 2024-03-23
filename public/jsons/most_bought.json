@@ -1,0 +1,26 @@
+[
+  {
+    "code": "TSLA",
+    "name": "Tesla, Inc.",
+    "price": "175.66",
+    "offset": "+4.34"
+  },
+  {
+    "code": "INTC",
+    "name": "Intel Corporation",
+    "price": "42.20",
+    "offset": "+0.15"
+  },
+  {
+    "code": "NVDA",
+    "name": "NVIDIA Corporation",
+    "price": "903.72",
+    "offset": "+9.74"
+  },
+  {
+    "code": "AAPL",
+    "name": "Apple Inc.",
+    "price": "178.67",
+    "offset": "+2.59"
+  }
+]

@@ -1,0 +1,48 @@
+---
+name: Divider
+menu: Components
+---
+
+import {Playground, Props} from 'docz'
+import {Box, Grommet, Text} from 'grommet'
+import Divider from './index'
+
+# Divider
+
+A Divider component that doesn't suck.
+
+## Properties
+
+<Props of={Divider} />
+
+## Basic usage
+
+<Playground>
+  <Grommet>
+    <Box>
+      <Divider />
+    </Box>
+  </Grommet>
+</Playground>
+
+## Custom color
+
+<Playground>
+  <Grommet>
+    <Box>
+      <Divider color="red" />
+    </Box>
+  </Grommet>
+</Playground>
+
+## Type vertical
+
+<Playground>
+  <Grommet>
+    <Box direction="row">
+      <Text>Menu item 1</Text>
+      <Divider type="vertical" />
+      <Text>Menu item 2</Text>
+    </Box>
+  </Grommet>
+</Playground>

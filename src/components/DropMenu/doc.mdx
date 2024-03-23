@@ -1,0 +1,36 @@
+---
+name: UserDropMenu
+menu: Components
+---
+
+import {Playground, Props} from 'docz'
+import {Box, Button, Grommet} from 'grommet'
+import Component from 'react-component-component'
+import UserDropMenu from './index'
+
+# UserDropMenu
+
+A UserDropMenu component that doesn't suck.
+
+## Properties
+
+<Props of={UserDropMenu} />
+
+## Basic usage
+
+<Playground>
+  <Grommet>
+    <Component
+      initialState={{
+        renderItems: () => (
+          <Box gap="xsmall" pad="small">
+            <Button label="Action Button 1" />
+            <Button label="Action Button 2" />
+          </Box>
+        ),
+      }}
+    >
+      {({setState, state}) => <UserDropMenu renderItems={state.renderItems} />}
+    </Component>
+  </Grommet>
+</Playground>

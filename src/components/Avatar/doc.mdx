@@ -1,0 +1,59 @@
+---
+name: Avatar
+menu: Components
+---
+
+import {Playground, Props} from 'docz'
+import {Grommet} from 'grommet'
+import Avatar from './index'
+
+# Avatar
+
+An image component that allows to modify border-radius.
+
+## Properties
+
+<Props of={Avatar} />
+
+## Basic usage
+
+<Playground>
+  <Grommet>
+    <Avatar round="full" src="//v2.grommet.io/assets/IMG_4245.jpg" />
+  </Grommet>
+</Playground>
+
+## Fixing Height and Width
+<Playground>
+  <Grommet>
+    <Avatar
+      width="24px"
+      height="24px"
+      round="full"
+      src="//v2.grommet.io/assets/IMG_4245.jpg"
+    />
+  </Grommet>
+</Playground>
+
+
+## Various Size
+
+<Playground>
+  <Grommet>
+    <Avatar
+      size="xsmall"
+      round="full"
+      src="//v2.grommet.io/assets/IMG_4245.jpg"
+    />
+    <Avatar
+      size="small"
+      round="full"
+      src="//v2.grommet.io/assets/IMG_4245.jpg"
+    />
+    <Avatar
+      size="medium"
+      round="full"
+      src="//v2.grommet.io/assets/IMG_4245.jpg"
+    />
+  </Grommet>
+</Playground>

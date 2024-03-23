@@ -1,0 +1,14 @@
+[
+  {
+    "code": "CVX",
+    "name": "Chevron",
+    "price": "154.55",
+    "offset": "-2.07"
+  },
+  {
+    "code": "JNJ",
+    "name": "J&J",
+    "price": "155.76",
+    "offset": "-2.45"
+  }
+]

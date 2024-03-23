@@ -1,0 +1,58 @@
+---
+name: MenuButton
+menu: Components
+---
+
+import {Playground, Props} from 'docz'
+import {Button, Grommet} from 'grommet'
+import {User} from 'grommet-icons/icons/User'
+import MenuButton from './index'
+import Component from 'react-component-component'
+
+# MenuButton
+
+An image component that allows to modify border-radius.
+
+## Properties
+
+<Props of={MenuButton} />
+
+## Basic usage
+
+<Playground>
+  <Grommet>
+    <MenuButton isActive={true} label="Profile" />
+  </Grommet>
+</Playground>
+
+## Inactive Menu Button
+
+<Playground>
+  <Grommet>
+    <MenuButton isActive={false} label="Profile" />
+  </Grommet>
+</Playground>
+
+## Active Expandable Button
+
+<Playground>
+  <Grommet>
+    <MenuButton isActive={true} isExpandable={true} label="Profile" />
+  </Grommet>
+</Playground>
+
+## Active Expanded Button
+
+<Playground>
+  <Grommet>
+    <MenuButton isActive={true} isExpandable={true} isExpanded={true} label="Profile" />
+  </Grommet>
+</Playground>
+
+## With Custom Icon
+
+<Playground>
+  <Grommet>
+    <MenuButton icon={<User/>} isActive={true} label="Profile" />
+  </Grommet>
+</Playground>
