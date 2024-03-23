@@ -11,7 +11,9 @@ export default function Details() {
   const [stock, setStock] = useState({});
 
   useEffect(() => {
-    fetch("/jsons/details.json",{
+    const url = process.env.NODE_ENV === 'development' ? process.env.PUBLIC_URL : 'https://adityakumarsingh900.github.io/us-stocks';
+    console.log(url, process.env.NODE_ENV);
+    fetch(`${url}/jsons/details.json`,{
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'

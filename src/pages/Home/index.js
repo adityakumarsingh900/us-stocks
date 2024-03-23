@@ -9,7 +9,7 @@ const Home = () => {
 
   useEffect(() => {
 
-    fetch("/jsons/most_bought.json",{
+    fetch(`${process.env.PUBLIC_URL}/jsons/most_bought.json`,{
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -18,7 +18,7 @@ const Home = () => {
       .then((response) => response.json())
       .then((data) => setMostBought(data));
 
-    fetch("/jsons/top_gainers.json",{
+    fetch(`${process.env.PUBLIC_URL}/jsons/top_gainers.json`,{
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -27,7 +27,7 @@ const Home = () => {
       .then((response) => response.json())
       .then((data) => setGainers(data));
 
-    fetch("/jsons/top_losers.json",{
+    fetch(`${process.env.PUBLIC_URL}/jsons/top_losers.json`,{
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
