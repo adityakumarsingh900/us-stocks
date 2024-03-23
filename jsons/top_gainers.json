@@ -1,0 +1,26 @@
+[
+  {
+    "code": "AAPL",
+    "name": "Apple Inc.",
+    "price": "178.67",
+    "offset": "+2.59"
+  },
+  {
+    "code": "GOOG",
+    "name": "Alphabet Inc.",
+    "price": "149.68",
+    "offset": "+1.76"
+  },
+  {
+    "code": "MSFT",
+    "name": "Microsoft Corporation",
+    "price": "425.23",
+    "offset": "+3.82"
+  },
+  {
+    "code": "META",
+    "name": "Meta Platforms",
+    "price": "505.52",
+    "offset": "+9.28"
+  }
+]
